@@ -1,0 +1,15 @@
+body {
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.col-md-6 {
+    border: 7px solid black;
+    margin-top: 150px !important;
+    /*!important tag is a bootstrap tag used to create automatic centering*/
+    padding: 20px;
+}
+button{
+    /*you have to write important to overide the bootstrap class*/
+    margin:20px !important;
+    border: 2px solid black !important;
+}
